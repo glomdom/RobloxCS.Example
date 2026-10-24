@@ -1,0 +1,29 @@
+{
+  "name": "RobloxCS.Example",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "out/shared"
+      },
+      "robloxcs": {
+        "$className": "Folder",
+        "RuntimeLib": {
+          "$path": "../../RuntimeLib"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "out/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "out/client"
+        }
+      }
+    }
+  }
+}

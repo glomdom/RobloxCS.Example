@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="RobloxCS.Types" Version="*"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RobloxCS.Shared\RobloxCS.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

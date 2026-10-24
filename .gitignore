@@ -1,0 +1,9 @@
+out/
+
+.vs/
+.idea/
+.vscode/
+
+bin/
+obj/
+Include/RuntimeLib/
